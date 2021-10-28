@@ -1,0 +1,4 @@
+php_settings:
+  version: "7.4"
+  global:
+    memory_limit: '400M'
