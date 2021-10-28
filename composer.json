@@ -21,7 +21,7 @@
         "silverstripe/totp-authenticator": "4.x-dev",
         "silverstripe/mfa": "4.x-dev",
         "silverstripe/controllerpolicy": "2.x-dev",
-        "silverstripe/crontask": "2.x-dev",
+        "silverstripe/crontask": "^2.3",
         "silverstripe/gridfieldqueuedexport": "2.x-dev",
         "silverstripe/ldap": "1.x-dev",
 
@@ -44,7 +44,8 @@
         "cwp/cwp-pdfexport": "1.x-dev",
         "dnadesign/silverstripe-elemental-userforms": "3.x-dev",
         "symbiote/silverstripe-multivaluefield": "5.x-dev",
-        "tractorcow/silverstripe-fluent": "4.x-dev"
+        "tractorcow/silverstripe-fluent": "4.x-dev",
+        "silverstripe/dynamodb": "^4.0"
     },
     "require-dev": {
         "silverstripe/frameworktest": "4.x-dev",

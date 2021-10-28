@@ -1,0 +1,4 @@
+php_settings:
+  version: "8.0"
+  global:
+    memory_limit: '410M'
