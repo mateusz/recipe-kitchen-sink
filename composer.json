@@ -16,7 +16,6 @@
         "silverstripe/recipe-services": "1.x-dev",
         "silverstripe/recipe-content-blocks": "2.x-dev",
         "cwp/cwp-recipe-search": "2.x-dev",
-
         "silverstripe/registry": "2.x-dev",
         "silverstripe/totp-authenticator": "4.x-dev",
         "silverstripe/mfa": "4.x-dev",
@@ -24,7 +23,6 @@
         "silverstripe/crontask": "2.x-dev",
         "silverstripe/gridfieldqueuedexport": "2.x-dev",
         "silverstripe/ldap": "1.x-dev",
-
         "silverstripe/textextraction": "3.x-dev",
         "silverstripe/realme": "4.x-dev",
         "silverstripe/ckan-registry": "1.x-dev",
@@ -35,7 +33,6 @@
         "silverstripe/environmentcheck": "2.x-dev",
         "silverstripe/hybridsessions": "2.x-dev",
         "silverstripe/html5": "2.x-dev",
-
         "cwp/starter-theme": "3.x-dev",
         "cwp/agency-extensions": "2.x-dev",
         "cwp/watea-theme": "3.x-dev",
@@ -54,7 +51,34 @@
         "sminnee/phpunit-mock-objects": "^3.4.7"
     },
     "extra": {
-        "project-files": []
+        "project-files": [],
+        "project-files-installed": [
+            ".env.example",
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/assets.yml",
+            "app/_config/blog.yml",
+            "app/_config/contentblocks.yml",
+            "app/_config/email.yml",
+            "app/_config/mimevalidator.yml",
+            "app/_config/mysite.yml",
+            "app/_config/theme.yml",
+            "app/src/BlocksPage.php",
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "behat.yml",
+            "phpcs.xml.dist",
+            "phpunit.xml.dist"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "assets/.gitignore",
+            "assets/.htaccess",
+            "assets/web.config",
+            "favicon.ico",
+            "index.php",
+            "web.config"
+        ]
     },
     "config": {
         "process-timeout": 600
